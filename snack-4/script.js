@@ -5,6 +5,7 @@ const posts = [
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
 
+console.log("Snack 4: Crea un nuovo array coi nomi di tutti gli autori")
 // Crea un nuovo array coi nomi di tutti gli autori
 const autori = posts.map(post => post.author)
 

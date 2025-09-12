@@ -21,7 +21,13 @@ const students = [
 
 const studente2 = students.filter(studente => studente.id === 2);
 
-console.log(`Lo studente in questione è: ${studente2}`)
+console.log("Snack 7: Recupera i dati dello studente con id 2")
+
+console.log("Gli studenti sono: ")
+console.log(students);
+
+console.log("Lo studente id 2 è:")
+console.log(studente2)
 // Recupera i dati dello studente con id 2
 
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }

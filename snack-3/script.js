@@ -1,5 +1,6 @@
 const numbers = [2, 8, 4, 7, 2, 87];
 
+console.log("Snack 3: Crea un nuovo array in cui tutti i numeri siano incrementati di 1:")
 // Crea un nuovo array in cui tutti i numeri siano incrementati di 1
 const numberPlus = numbers.map(numero => numero + 1);
 console.log(`Array precedente: ${numbers}`);
