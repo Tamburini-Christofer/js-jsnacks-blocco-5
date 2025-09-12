@@ -19,5 +19,8 @@ const students = [
   },
 ];
 
+const marioLanciClasse = students.find(studente => studente.name === 'Marco Lanci')
+
+console.log (`${marioLanciClasse.name} è nella classe ${marioLanciClasse.class}`)
 // Recupera la classe dello studente 'Marco Lanci'
-// Risultato: '3C'
+// Risultato: '3C'C
