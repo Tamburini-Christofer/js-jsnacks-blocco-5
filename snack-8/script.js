@@ -21,6 +21,7 @@ const students = [
 
 const marioLanciClasse = students.find(studente => studente.name === 'Marco Lanci').class;
 
+//Mando in console la consegna per capirla
 console.log ("Snack 8: Recupera la classe dello studente 'Marco Lanci'")
 console.log (students)
 console.log ("La sua classe è " + marioLanciClasse)

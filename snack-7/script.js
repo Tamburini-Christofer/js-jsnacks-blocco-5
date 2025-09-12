@@ -21,6 +21,7 @@ const students = [
 
 const studente2 = students.filter(studente => studente.id === 2);
 
+//Mando in console la consegna per capirla
 console.log("Snack 7: Recupera i dati dello studente con id 2")
 
 console.log("Gli studenti sono: ")
