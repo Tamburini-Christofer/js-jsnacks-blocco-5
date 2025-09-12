@@ -5,4 +5,6 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+people.forEach(persona => console.log(persona.name));
+
 // Risultato: 'Paolo', 'Giulia', 'Marco'
