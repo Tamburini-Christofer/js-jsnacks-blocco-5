@@ -1,1 +1,1 @@
-# ex-js-array-methods
+![Immgini finali esercizi](image.png)
